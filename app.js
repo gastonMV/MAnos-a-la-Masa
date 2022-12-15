@@ -15,6 +15,7 @@ cloudinary.config({
 
 var app = express();
 
+// esto es un comentario
 mongoose.connect("mongodb://test:S3cret@localhost:27017/ManosMasa?authSource=admin");
 
 app.use(bodyParser.json());
